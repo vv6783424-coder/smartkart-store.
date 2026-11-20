@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SmartKart पर स्मार्ट गैजेट्स और मोबाइल एक्सेसरीज़ खरीदें।">
+  <title>SmartKart | Smart Gadgets</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap');
+:root{--ink:#172033;--muted:#687386;--brand:#5b4bdb;--brand2:#8779ff;--pale:#f3f2ff;--line:#e9eaf1;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'DM Sans','Noto Sans Devanagari',sans-serif;background:#fff}.topbar{text-align:center;background:#171a35;color:#fff;padding:9px 12px;font-size:12px;letter-spacing:.2px}.header{height:76px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(12px);z-index:5}.logo{display:flex;align-items:center;gap:10px;font-size:21px;font-weight:800;color:var(--ink);text-decoration:none}.logo-mark{display:grid;place-items:center;width:35px;height:35px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:white}.header nav{display:flex;gap:30px}.header nav a,.footer-links a{font-size:14px;color:#596174;text-decoration:none}.header nav a:hover,.footer-links a:hover{color:var(--brand)}.cart-button{border:1px solid var(--line);background:white;border-radius:12px;padding:10px 15px;font-size:16px;cursor:pointer}.cart-button span{font-weight:700;margin-left:4px}.hero{min-height:530px;padding:70px 9%;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:40px;background:radial-gradient(circle at 80% 45%,#eeecff 0,#f8f8ff 34%,#fff 70%)}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--brand);font-weight:800}.hero h1{font-size:clamp(42px,5vw,66px);line-height:1.2;letter-spacing:-2px;margin:18px 0}.hero h1 em{font-style:normal;color:var(--brand)}.hero-copy>p,.section-heading>p,.about-section p,.contact-section p{color:var(--muted);line-height:1.8;max-width:530px;font-size:15px}.primary-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;border:0;border-radius:12px;padding:15px 22px;background:var(--brand);color:white;text-decoration:none;font-weight:700;cursor:pointer;box-shadow:0 10px 22px #5b4bdb30;transition:.2s}.primary-button:hover{background:#4537bd;transform:translateY(-2px)}.trust-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;color:#687386;font-size:12px}.hero-art{height:350px;position:relative;display:grid;place-items:center}.orb{position:absolute;border-radius:50%}.orb-one{width:310px;height:310px;background:linear-gradient(145deg,#dedaff,#f6f5ff);box-shadow:inset 12px 12px 30px #fff9}.orb-two{width:220px;height:220px;border:1px solid #c7c0ff}.hero-device{position:relative;font-size:130px;filter:drop-shadow(0 25px 20px #5545a633);transform:rotate(-12deg)}.float-card{position:absolute;background:white;padding:13px 17px;border-radius:13px;box-shadow:0 12px 35px #29205b18;font-size:13px;font-weight:700}.card-a{top:50px;right:0}.card-b{bottom:45px;left:0}.benefits{margin:-1px auto 0;padding:28px 8%;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;background:#fff;border-bottom:1px solid var(--line)}.benefits div{display:grid;grid-template-columns:42px 1fr;column-gap:12px;align-items:center}.benefits span{grid-row:span 2;font-size:25px}.benefits strong{font-size:14px}.benefits small{color:var(--muted);margin-top:4px}.products-section{padding:90px 8%}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px}.section-heading h2,.about-section h2,.contact-section h2{font-size:34px;letter-spacing:-1px;margin:10px 0}.section-heading>p{max-width:430px;font-size:13px}.filter-row{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0}.filter{border:1px solid var(--line);background:#fff;padding:10px 16px;border-radius:30px;color:#687386;cursor:pointer;font-family:inherit}.filter.active,.filter:hover{background:var(--pale);color:var(--brand);border-color:#d8d3ff}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product-card{border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:.2s;background:white}.product-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #25204a12}.product-art{height:185px;display:grid;place-items:center;font-size:70px;background:linear-gradient(145deg,#f2f0ff,#f8f9ff)}.product-info{padding:17px}.tag{font-size:10px;color:var(--brand);font-weight:800;letter-spacing:1px;text-transform:uppercase}.product-info h3{font-size:16px;margin:8px 0}.product-desc{font-size:12px;color:var(--muted);min-height:36px;line-height:1.5}.price-row{display:flex;justify-content:space-between;align-items:center;margin-top:15px}.price{font-weight:800;font-size:18px}.add-button{border:0;background:var(--pale);color:var(--brand);padding:9px 12px;border-radius:10px;font-weight:700;cursor:pointer}.about-section{margin:15px 8% 80px;padding:48px;background:#f7f6ff;border-radius:22px;display:flex;gap:28px;align-items:center}.about-icon{width:90px;height:90px;flex:none;border-radius:24px;background:white;display:grid;place-items:center;font-size:42px}.about-section h2{font-size:28px}.contact-section{margin:0 8% 80px;padding:38px 42px;border:1px solid var(--line);border-radius:20px;display:flex;justify-content:space-between;align-items:center;gap:20px}.contact-section h2{margin-bottom:5px}.contact-section p{margin:0}.contact-section .primary-button{white-space:nowrap}footer{padding:30px 8%;background:#171a35;color:white;display:flex;align-items:center;justify-content:space-between;gap:20px}footer .logo{color:white}footer p{font-size:12px;color:#b6bbcc}.footer-links{display:flex;gap:20px}.footer-links a{color:#c4c8d7}.overlay{position:fixed;inset:0;background:#10132670;z-index:9;opacity:0;visibility:hidden;transition:.2s}.overlay.show{opacity:1;visibility:visible}.cart-drawer{position:fixed;z-index:10;right:0;top:0;height:100%;width:min(420px,100%);background:white;transform:translateX(105%);transition:.25s;display:flex;flex-direction:column;padding:24px}.cart-drawer.open{transform:translateX(0)}.cart-head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:15px}.cart-head h2{margin:0;font-size:22px}.icon-button{border:0;background:#f2f2f7;border-radius:9px;padding:9px 12px;cursor:pointer}.cart-items{overflow:auto;flex:1;padding:15px 0}.empty-cart{color:var(--muted);text-align:center;margin-top:45px}.cart-item{display:grid;grid-template-columns:1fr auto;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}.cart-item strong{font-size:14px}.cart-item small{display:block;color:var(--muted);margin-top:5px}.qty-controls{display:flex;align-items:center;gap:9px}.qty-controls button{border:1px solid var(--line);background:white;border-radius:7px;width:27px;height:27px;cursor:pointer}.cart-bottom{border-top:1px solid var(--line);padding-top:18px}.total-line{display:flex;justify-content:space-between;margin-bottom:17px}.full{width:100%}.cart-bottom small{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:12px}
+@media(max-width:850px){.header{padding:0 5%}.header nav{gap:13px}.header nav a{font-size:12px}.hero{padding:55px 7%;grid-template-columns:1fr}.hero-art{height:290px}.benefits{padding:25px 6%}.products-section{padding:65px 6%}.product-grid{grid-template-columns:repeat(2,1fr)}.section-heading{display:block}.about-section,.contact-section{margin-left:6%;margin-right:6%}}
+@media(max-width:560px){.header{height:65px}.header nav{display:none}.hero{min-height:auto;padding:55px 7% 30px}.hero h1{font-size:43px}.hero-art{height:250px}.orb-one{width:230px;height:230px}.orb-two{width:170px;height:170px}.hero-device{font-size:100px}.card-a{right:0;top:25px}.card-b{left:0;bottom:20px}.benefits{grid-template-columns:1fr;gap:18px}.products-section{padding:55px 5%}.product-grid{gap:11px}.product-art{height:135px;font-size:52px}.product-info{padding:12px}.product-info h3{font-size:14px}.product-desc{font-size:11px}.price{font-size:15px}.add-button{font-size:11px;padding:8px}.about-section{padding:25px;display:block}.about-icon{margin-bottom:20px}.contact-section{padding:25px;display:block}.contact-section .primary-button{margin-top:20px}footer{padding:25px 6%;flex-wrap:wrap}footer p{order:3;width:100%;margin:0}}
+
+</style>
+</head>
+<body>
+  <div class="topbar">🚚 चुनिंदा प्रोडक्ट्स पर डिलीवरी उपलब्ध • ऑर्डर के लिए WhatsApp करें</div>
+  <header class="header">
+    <a class="logo" href="#"><span class="logo-mark">S</span> SmartKart</a>
+    <nav>
+      <a href="#home">होम</a>
+      <a href="#products">प्रोडक्ट्स</a>
+      <a href="#about">हमारे बारे में</a>
+      <a href="#contact">संपर्क</a>
+    </nav>
+    <button class="cart-button" id="openCart" aria-label="कार्ट खोलें">🛒 <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">SMART LIFE. SMART CHOICE.</span>
+        <h1>हर दिन के लिए<br><em>स्मार्ट गैजेट्स</em></h1>
+        <p>काम के, उपयोगी और शानदार गैजेट्स — एक ही जगह। अपना पसंदीदा प्रोडक्ट चुनें और WhatsApp पर ऑर्डर करें।</p>
+        <a class="primary-button" href="#products">प्रोडक्ट देखें <span>→</span></a>
+        <div class="trust-row"><span>✓ आसान ऑर्डर</span><span>✓ सपोर्ट उपलब्ध</span><span>✓ सुरक्षित संपर्क</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="hero-device">🎧</div>
+        <div class="float-card card-a">⚡ Smart gadgets</div>
+        <div class="float-card card-b">✨ रोज़मर्रा के काम आसान</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><span>📦</span><strong>चुने हुए प्रोडक्ट</strong><small>काम के गैजेट्स</small></div>
+      <div><span>💬</span><strong>WhatsApp ऑर्डर</strong><small>सीधा संपर्क</small></div>
+      <div><span>🤝</span><strong>ग्राहक सहायता</strong><small>ऑर्डर से जुड़ी मदद</small></div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading">
+        <div><span class="eyebrow">OUR COLLECTION</span><h2>लोकप्रिय प्रोडक्ट्स</h2></div>
+        <p>नीचे दिए गए प्रोडक्ट उदाहरण हैं। बिक्री शुरू करने से पहले DeoDap की वास्तविक कीमत, स्टॉक और शिपिंग जाँचकर अपडेट करें।</p>
+      </div>
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">सभी</button>
+        <button class="filter" data-filter="mobile">मोबाइल एक्सेसरीज़</button>
+        <button class="filter" data-filter="smart">स्मार्ट गैजेट्स</button>
+        <button class="filter" data-filter="lighting">लाइटिंग</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-icon">💡</div>
+      <div><span class="eyebrow">WHY SMARTKART</span><h2>सही गैजेट चुनना अब आसान</h2>
+      <p>SmartKart पर हमारा उद्देश्य उपयोगी गैजेट्स को आसान तरीके से दिखाना और ऑर्डर करना है। ऑर्डर की पुष्टि, उपलब्धता, डिलीवरी शुल्क और अनुमानित समय WhatsApp पर स्पष्ट किए जाएँगे।</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><span class="eyebrow">NEED HELP?</span><h2>कोई सवाल है?</h2><p>प्रोडक्ट, ऑर्डर या डिलीवरी से जुड़ी जानकारी के लिए हमसे संपर्क करें।</p></div>
+      <a class="primary-button" id="contactWhatsApp" href="#">WhatsApp पर संपर्क करें →</a>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#"><span class="logo-mark">S</span> SmartKart</a><p>© <span id="year"></span> SmartKart. सर्वाधिकार सुरक्षित।</p>
+    <div class="footer-links"><a href="#contact">संपर्क</a><a href="policies.html">नीतियाँ</a></div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="आपका कार्ट">
+    <div class="cart-head"><h2>आपका कार्ट</h2><button id="closeCart" class="icon-button">✕</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">आपका कार्ट अभी खाली है।</p></div>
+    <div class="cart-bottom"><div class="total-line"><span>कुल (डिलीवरी से पहले)</span><strong id="cartTotal">₹0</strong></div>
+      <button class="primary-button full" id="checkoutButton">WhatsApp पर ऑर्डर करें →</button>
+      <small>ऑर्डर भेजने से पहले WhatsApp पर उपलब्धता और अंतिम राशि की पुष्टि करें।</small>
+    </div>
+  </aside>
+  <script>
+// ====== IMPORTANT: नीचे अपना WhatsApp नंबर बदलें ======
+// भारत के नंबर के लिए 91 के बाद 10 अंकों का नंबर लिखें, + या spaces न लगाएँ।
+const WHATSAPP_NUMBER = "919691362649";
+
+const products = [
+  {id:1,name:"Rechargeable LED Light",category:"lighting",tag:"LIGHTING",price:399,emoji:"🔦",desc:"घर और यात्रा के लिए उपयोगी लाइट।"},
+  {id:2,name:"Bluetooth Speaker",category:"smart",tag:"SMART GADGET",price:599,emoji:"🔊",desc:"कॉम्पैक्ट वायरलेस स्पीकर।"},
+  {id:3,name:"Mobile Stand",category:"mobile",tag:"MOBILE ACCESSORY",price:199,emoji:"📱",desc:"वीडियो देखने और डेस्क उपयोग के लिए।"},
+  {id:4,name:"USB Mini Fan",category:"smart",tag:"SMART GADGET",price:299,emoji:"🌀",desc:"छोटा और पोर्टेबल फैन।"},
+  {id:5,name:"Motion Sensor Light",category:"lighting",tag:"LIGHTING",price:349,emoji:"💡",desc:"कैबिनेट और रास्तों के लिए सेंसर लाइट।"},
+  {id:6,name:"Fast Charging Cable",category:"mobile",tag:"MOBILE ACCESSORY",price:149,emoji:"🔌",desc:"मोबाइल चार्जिंग के लिए केबल।"},
+  {id:7,name:"Wireless Earbuds",category:"smart",tag:"SMART GADGET",price:799,emoji:"🎧",desc:"रोज़मर्रा के उपयोग के लिए ईयरबड्स।"},
+  {id:8,name:"Phone Holder",category:"mobile",tag:"MOBILE ACCESSORY",price:249,emoji:"📲",desc:"डेस्क या वीडियो कॉल के लिए होल्डर।"}
+];
+
+let cart = [];
+const money = n => "₹" + n.toLocaleString("en-IN");
+const grid = document.getElementById("productGrid");
+
+function renderProducts(filter="all"){
+  grid.innerHTML = products.filter(p=>filter==="all"||p.category===filter).map(p=>`
+    <article class="product-card">
+      <div class="product-art">${p.emoji}</div>
+      <div class="product-info">
+        <span class="tag">${p.tag}</span><h3>${p.name}</h3>
+        <p class="product-desc">${p.desc}</p>
+        <div class="price-row"><span class="price">${money(p.price)}</span>
+        <button class="add-button" onclick="addToCart(${p.id})">+ कार्ट</button></div>
+      </div>
+    </article>`).join("");
+}
+function addToCart(id){
+  const item=cart.find(x=>x.id===id);
+  if(item)item.qty++;else cart.push({id,qty:1});
+  updateCart();
+}
+function changeQty(id,delta){
+  const item=cart.find(x=>x.id===id);if(!item)return;
+  item.qty+=delta;if(item.qty<=0)cart=cart.filter(x=>x.id!==id);
+  updateCart();
+}
+function updateCart(){
+  const count=cart.reduce((s,x)=>s+x.qty,0);
+  const total=cart.reduce((s,x)=>s+x.qty*products.find(p=>p.id===x.id).price,0);
+  document.getElementById("cartCount").textContent=count;
+  document.getElementById("cartTotal").textContent=money(total);
+  const box=document.getElementById("cartItems");
+  box.innerHTML=cart.length?cart.map(x=>{
+    const p=products.find(y=>y.id===x.id);
+    return `<div class="cart-item"><div><strong>${p.name}</strong><small>${money(p.price)} × ${x.qty}</small></div>
+    <div class="qty-controls"><button onclick="changeQty(${p.id},-1)">−</button><b>${x.qty}</b><button onclick="changeQty(${p.id},1)">+</button></div></div>`;
+  }).join(""):`<p class="empty-cart">आपका कार्ट अभी खाली है।</p>`;
+}
+function openCart(){document.getElementById("cartDrawer").classList.add("open");document.getElementById("overlay").classList.add("show")}
+function closeCart(){document.getElementById("cartDrawer").classList.remove("open");document.getElementById("overlay").classList.remove("show")}
+function sendWhatsApp(message){
+  if(!/^91\d{10}$/.test(WHATSAPP_NUMBER)){alert("पहले script.js में अपना 10 अंकों का WhatsApp नंबर सेट करें।");return;}
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,"_blank");
+}
+document.getElementById("openCart").addEventListener("click",openCart);
+document.getElementById("closeCart").addEventListener("click",closeCart);
+document.getElementById("overlay").addEventListener("click",closeCart);
+document.getElementById("checkoutButton").addEventListener("click",()=>{
+  if(!cart.length){alert("पहले कार्ट में प्रोडक्ट जोड़ें।");return;}
+  const lines=cart.map(x=>{const p=products.find(y=>y.id===x.id);return `${p.name} — ${x.qty} × ${money(p.price)} = ${money(x.qty*p.price)}`;});
+  const total=cart.reduce((s,x)=>s+x.qty*products.find(p=>p.id===x.id).price,0);
+  sendWhatsApp("नमस्ते SmartKart! मैं ये प्रोडक्ट ऑर्डर करना चाहता/चाहती हूँ:\n\n"+lines.join("\n")+"\n\nकुल (डिलीवरी से पहले): "+money(total)+"\n\nकृपया उपलब्धता, डिलीवरी चार्ज और अंतिम राशि बताएं।");
+});
+document.getElementById("contactWhatsApp").addEventListener("click",e=>{e.preventDefault();sendWhatsApp("नमस्ते SmartKart, मुझे जानकारी चाहिए।");});
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));
+  btn.classList.add("active");renderProducts(btn.dataset.filter);
+}));
+document.getElementById("year").textContent=new Date().getFullYear();
+renderProducts();
+
+</script>
+</body>
+</html>
